@@ -63,6 +63,10 @@ Allows the contract owner to add, replace, or remove facets dynamically. Uses Li
 
 **Access Control:** Requires `DEFAULT_ADMIN_ROLE` via LibFactoryRoles
 
+**Version Changes (v1.0.0 → v1.0.1):**
+- Changed access control from master-only to role-based (DEFAULT_ADMIN_ROLE)
+- Enhanced security with granular permission management
+
 #### **DiamondLoupeFacet** (v1.0.0)
 Provides introspection into the factory diamond's modular structure.
 
@@ -89,7 +93,12 @@ Provides functionality to register and organize token-related facets into reusab
 
 **Access Control:** Only `master` role can register facets and create packages
 
+**Version Changes (v1.0.0 → v1.0.1):**
+- Added `fullPackageInfo()` for comprehensive package metadata retrieval
+- Enhanced blueprint documentation and organization
+
 #### **CreateSTV3Facet** (v1.1.0)
+
 Handles the creation of Security Tokens (STV3) along with their associated treasury contracts. Allows setting creation parameters like token version and initializer contract. Tracks created tokens and exposes metadata for each deployment.
 
 **Token Creation:**
@@ -106,7 +115,12 @@ Handles the creation of Security Tokens (STV3) along with their associated treas
 
 **Access Control:** Restricted to protocol `master`
 
+**Version Changes (v1.0.0 → v1.0.1):**
+- Enhanced token creation tracking and metadata management
+- Improved version control for created tokens
+
 #### **SetInfrastructureFacet** (v1.2.0)
+
 Performs initial infrastructure setup for newly created STV3 tokens. Assigns key operational roles, sets the treasury address, and links validation rules. Ensures tokens are fully initialized and compliant with protocol standards.
 
 **Infrastructure Setup:**
@@ -121,7 +135,13 @@ Performs initial infrastructure setup for newly created STV3 tokens. Assigns key
 
 **Access Control:** Callable only by protocol `master`
 
+
+**Version Changes (v1.0.0 → v1.1.0):**
+- Enhanced setup automation and validation
+- Improved role assignment logic
+
 #### **STV3TokenManagementFacet** (v1.3.0)
+
 Provides comprehensive post-deployment management functionality for STV3 security tokens. Enables updating token facets, controlling pause states, managing trust/distrust lists, linking validation rules, and setting issuance limits for deployed tokens.
 
 **Facet Management:**
@@ -143,6 +163,10 @@ Provides comprehensive post-deployment management functionality for STV3 securit
 - `setMaxIssuanceForSTV3Token(address tokenAddress, uint256 newMaxIssuance)` - Sets maximum issuance limit for token
 
 **Access Control:** Accessible only by `DEFAULT_ADMIN_ROLE` to maintain secure control over token lifecycle management
+
+**Version Changes (v1.0.0 → v1.1.0):**
+- Added `setMaxIssuanceForSTV3Token()` for monetary policy management
+- Enhanced post-deployment control capabilities
 
 #### **FactoryRolesFacet** (v1.0.0)
 Provides role-based access control management for the factory using OpenZeppelin's AccessControl and AccessControlEnumerable standards. Uses LibFactoryRoles library for implementation logic.
@@ -211,8 +235,11 @@ This versioning system uses **LibVersion** library with Diamond Storage pattern 
 
 **Deployed Facets (Arbitrum Mainnet):**
 
-**[StoboxRWAVaultFactory](https://arbiscan.io/address/0x096d75d0501c3b1479ffe15569192cec998223b4#code) | v.1.0.7 | 0x096D75d0501c3B1479FFe15569192CeC998223b4**
----
+
+| Facet | Address | Version |
+|-------|---------|---------|
+
+**[StoboxRWAVaultFactory v.1.0.7](https://arbiscan.io/address/0x096d75d0501c3b1479ffe15569192cec998223b4#code) 0x096D75d0501c3B1479FFe15569192CeC998223b4**
 
 **[DiamondInit v.1.0.0](https://arbiscan.io/address/0x3d353efc33c380b739f351FC0d65BA9590aeE0d1#code) 0x3d353efc33c380b739f351FC0d65BA9590aeE0d1**
 
@@ -230,7 +257,6 @@ This versioning system uses **LibVersion** library with Diamond Storage pattern 
 
 **[STV3TokenManagementFacet v.1.3.0](https://arbiscan.io/address/0xf1FA8f08d9571b5e489A87f3C7Df42287293c66c#code) 0xf1FA8f08d9571b5e489A87f3C7Df42287293c66c**
 
----
 
 **Arbitrum Sepolia Testnet:**
 - **Chain ID:** 421614
@@ -332,6 +358,10 @@ Implements comprehensive on-chain validation management and trust relationships 
 
 **Access Control:** Only deployer can manage trust, rules, and pause state
 
+**Version Changes (v1.0.0 → v1.0.1):**
+- Enhanced protocol security with pause/unpause capabilities
+- Improved version documentation and contract traceability
+
 #### **RolesFacet** (v1.0.0)
 Provides role-based access control management using OpenZeppelin's AccessControl and AccessControlEnumerable standards. Uses LibRoles library for implementation logic.
 
@@ -372,6 +402,12 @@ Implements treasury management and monetary operations with issuance limit contr
 **Access Modifiers:**
 - `onlyDeployer` - Enforced via LibDiamond.enforceIsDeployer()
 - `onlyFinOps` - Enforced via LibRoles._checkRole(FINANCIAL_OPERATOR)
+
+**Version Changes (v1.0.0 → v1.1.0):**
+- Added issuance limit controls (`setMaxIssuance`, `maxIssuance`)
+- Added issuance tracking (`totalIssued`)
+- Enhanced monetary policy enforcement and regulatory compliance support
+- Expanded from 5 to 8 total functions
 
 #### **EmergencyFacet** (v1.0.0)
 Provides privileged emergency operations for critical recovery scenarios. All functions are restricted to the RECOVERY_OPERATOR role.
