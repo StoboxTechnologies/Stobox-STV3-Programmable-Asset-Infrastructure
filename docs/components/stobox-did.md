@@ -410,7 +410,7 @@ StoboxDID is the identity foundation for the entire platform:
 
 - [StoboxProtocolSTV3](./protocol-stv3.md) — Token that uses DID for validation
 - [StoboxRWAOfferingRegistry](./offering-registry.md) — STO system that verifies investors
-- [Compliance and Security](../05-compliance-and-security.md) — How DID enables compliance
+- [Compliance and Security](../04-compliance-and-security.md) — How DID enables compliance
 
 ---
 

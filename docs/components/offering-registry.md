@@ -451,7 +451,7 @@ Currently, **Pre-Mint** is the standard distribution method.
 
 - [StoboxProtocolSTV3](./protocol-stv3.md) — The token being sold
 - [StoboxDID](./stobox-did.md) — Investor identity verification
-- [Compliance and Security](../05-compliance-and-security.md) — Detailed compliance rules
+- [Compliance and Security](../04-compliance-and-security.md) — Detailed compliance rules
 
 ---
 

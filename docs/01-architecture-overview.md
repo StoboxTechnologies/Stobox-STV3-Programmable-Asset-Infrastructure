@@ -445,7 +445,7 @@ Adopting the STV3 Protocol enables organizations to:
 
 1. **[Token Lifecycle](./02-token-lifecycle.md)** — Understand the complete journey from creation to trading
 2. **[System Components](./components/README.md)** — Deep dive into each component
-3. **[Roles and Permissions](./04-roles-and-permissions.md)** — Learn about access control
+3. **[Roles and Permissions](./03-roles-and-permissions.md)** — Learn about access control
 4. **[Deployed Contracts](./deployed-contracts.md)** — Find contract addresses
 
 ---

@@ -72,5 +72,5 @@
 
 ---
 
-[← Back to Index](./README.md) | [Previous: Roles and Permissions](./04-roles-and-permissions.md) | [Next: Diagrams →](./06-diagrams.md)
+[← Back to Index](./README.md) | [Previous: Roles and Permissions](./03-roles-and-permissions.md) | [Next: Diagrams →](./05-diagrams.md)
 

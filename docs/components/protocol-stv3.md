@@ -318,8 +318,8 @@ ERC-7943 compliance means STV3 tokens can integrate with:
 
 - [StoboxRWAVaultFactory](./vault-factory.md) — How tokens are created
 - [StoboxDID](./stobox-did.md) — Identity verification system
-- [Roles and Permissions](../04-roles-and-permissions.md) — Detailed role descriptions
-- [Compliance and Security](../05-compliance-and-security.md) — Security features
+- [Roles and Permissions](../03-roles-and-permissions.md) — Detailed role descriptions
+- [Compliance and Security](../04-compliance-and-security.md) — Security features
 
 ---
 

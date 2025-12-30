@@ -11,11 +11,11 @@ Welcome to the comprehensive documentation for Stobox's Real World Asset (RWA) t
 | # | Document | Description |
 |---|----------|-------------|
 | 01 | [Architecture Overview](./01-architecture-overview.md) | High-level platform architecture and component interaction |
-| 02 | [Token Lifecycle](./02-token-lifecycle.md) | Complete journey from token creation to secondary trading |
-| 03 | [System Components](./components/README.md) | Detailed description of each platform component |
-| 04 | [Roles and Permissions](./04-roles-and-permissions.md) | Access control and role management |
-| 05 | [Compliance and Security](./05-compliance-and-security.md) | Regulatory compliance and security features |
-| 06 | [Diagrams](./06-diagrams.md) | Visual representations and flowcharts |
+| 02 | [Token Lifecycle](./02-token-lifecycle.md) | Complete journey from token creation to investor distribution |
+| — | [System Components](./components/README.md) | Detailed description of each platform component |
+| 03 | [Roles and Permissions](./03-roles-and-permissions.md) | Access control and role management |
+| 04 | [Compliance and Security](./04-compliance-and-security.md) | Regulatory compliance and security features |
+| 05 | [Diagrams](./05-diagrams.md) | Visual representations and flowcharts |
 
 ### Reference
 

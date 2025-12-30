@@ -50,5 +50,5 @@ The Stobox RWA infrastructure is built on four interconnected smart contract sys
 
 ---
 
-[← Back to Index](../README.md) | [Previous: Token Lifecycle](../02-token-lifecycle.md) | [Next: Roles and Permissions →](../04-roles-and-permissions.md)
+[← Back to Index](../README.md) | [Previous: Token Lifecycle](../02-token-lifecycle.md) | [Next: Roles and Permissions →](../03-roles-and-permissions.md)
 
