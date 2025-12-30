@@ -71,28 +71,6 @@
 
 ---
 
-## Arbitrum Sepolia Testnet
-
-### Factory
-
-| Contract | Address |
-|----------|---------|
-| Stage Factory | [0xa1F864848e821D43bD8dDA123ffD47E92c558698](https://sepolia.arbiscan.io/address/0xa1f864848e821d43bd8dda123ffd47e92c558698#code) |
-
-### Offering Registry
-
-| Contract | Address |
-|----------|---------|
-| OfferingRegistry | [0x2113C87620221DbA86F82cE71E5f3EAEDB135F4b](https://sepolia.arbiscan.io/address/0x2113C87620221DbA86F82cE71E5f3EAEDB135F4b#code) |
-
-### StoboxDID
-
-| Contract | Address |
-|----------|---------|
-| SDID | [0xA832662d1E11F2a6cEF706cE54A993E7eeEDC440](https://sepolia.arbiscan.io/address/0xa832662d1e11f2a6cef706ce54a993e7eeedc440#code) |
-
----
-
 ## Example Deployed Tokens
 
 ### Arbitrum One Mainnet
