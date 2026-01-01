@@ -13,6 +13,7 @@ The Stobox STV3 Protocol is an institutional-grade smart contract infrastructure
 STV3 functions as a programmable asset infrastructure, enabling real-world financial instruments to be issued and managed on-chain with native enforcement of regulatory rules, identity verification, governance controls, and data integrations. All critical asset operations—including transfers, distributions, redemptions, corporate actions, and data updates—are executed and validated directly through smart contract logic, eliminating reliance on manual oversight and off-chain enforcement.
 
 Engineered for enterprises, investment funds, corporates, commodity issuers, and regulated market participants, the Stobox STV3 Protocol combines the flexibility of blockchain technology with the structural rigor of traditional financial regulation. It enables organizations to issue digital assets that operate predictably, adapt through controlled upgrades, and maintain continuous regulatory alignment across multiple jurisdictions.
+
 ---
 
 ## Documentation
