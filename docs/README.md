@@ -48,9 +48,9 @@ The Stobox RWA infrastructure consists of four interconnected smart contract sys
 
 | Component | Version |
 |-----------|---------|
-| StoboxRWAVaultFactory | v1.0.7 |
-| StoboxProtocolSTV3 | v1.7.0 |
-| StoboxRWAOfferingRegistry | v1.0.3 |
+| StoboxRWAVaultFactory | v1.0.8 |
+| StoboxProtocolSTV3 | v1.9.0 |
+| StoboxRWAOfferingRegistry | v1.0.5 |
 | StoboxDID | v0.1 |
 
 ---

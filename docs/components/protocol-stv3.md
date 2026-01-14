@@ -107,6 +107,8 @@ Controls the creation and destruction of tokens.
 | **Redeem** | Destroy tokens (burn from Treasury) |
 | **Transfer from Treasury** | Distribute tokens to investors |
 | **Set Max Issuance** | Define the maximum tokens that can be issued |
+| **Set Max Supply** | Define the absolute maximum supply cap |
+| **Total Issued** | View the total amount of tokens ever issued |
 
 ### 3. ValidationFacet — Compliance Rules
 
@@ -127,6 +129,7 @@ Handles the purchase of tokens during offerings.
 |----------|-------------|
 | **Purchase** | Buy tokens with payment tokens (e.g., USDC) |
 | **Preview Purchase** | Calculate costs before buying |
+| **Refund Purchase** | Process refunds for cancelled/failed purchases |
 | **Set Offering Registry** | Connect to STO management system |
 
 ### 5. LockupFacet — Token Restrictions

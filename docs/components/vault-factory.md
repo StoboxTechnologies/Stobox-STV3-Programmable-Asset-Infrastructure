@@ -108,7 +108,7 @@ When creating a new token, the following parameters are configured:
 | **Max Supply** | Maximum tokens that can ever exist | 1,000,000 |
 | **Owner** | Address with administrative control | 0x123...abc |
 | **uDID** | Unique Decentralized ID for the token issuer | "ACME-2024-001" |
-| **Package** | Feature set version | Package #7 |
+| **Package** | Feature set version | Package #9 (1_9_0_STV3Pack) |
 
 ---
 
@@ -124,7 +124,9 @@ The Factory offers different **packages** — pre-configured sets of functionali
 | **RWAVaultBaseSTV3Pack** | v1.0 | Core functionality for RWA tokens |
 | **1_5_0_STV3Pack** | v1.5 | + Purchase capability, + Lockup management |
 | **1_6_0_STV3Pack** | v1.6 | + Enhanced monetary operations |
-| **1_7_0_STV3Pack** | v1.7 | Latest features, optimized operations |
+| **1_7_0_STV3Pack** | v1.7 | + maxIssuance controls |
+| **1_8_0_STV3Pack** | v1.8 | + PurchaseFacet v1.2.0 with refundPurchase |
+| **1_9_0_STV3Pack** | v1.9 | + MonetaryFacet v1.6.0 with setMaxSupply (current) |
 
 Each newer package typically includes all features from previous versions plus new capabilities.
 
@@ -155,7 +157,7 @@ Symbol:      "MOTT"
 Decimals:    18
 Max Supply:  10,000,000
 Owner:       0xABC...123
-Package:     7 (1_7_0_STV3Pack)
+Package:     9 (1_9_0_STV3Pack)
 uDID:        "MOTT-NYC-2024"
 ```
 

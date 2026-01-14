@@ -5,7 +5,7 @@
 [![Built with Foundry](https://img.shields.io/badge/Built%20with-Foundry-E6522C.svg)](https://getfoundry.sh/)
 [![ERC-7943](https://img.shields.io/badge/ERC--7943-Compliant-green.svg)](https://eips.ethereum.org/EIPS/eip-7943)
 [![Diamond Standard](https://img.shields.io/badge/EIP--2535-Diamond%20Standard-purple.svg)](https://eips.ethereum.org/EIPS/eip-2535)
-[![Version](https://img.shields.io/badge/Version-1.5.0-brightgreen.svg)](./changelog/v1.5.0.md)
+[![Version](https://img.shields.io/badge/Version-1.5.3-brightgreen.svg)](./changelog/UNRELEASED.md)
 
 **Programmable Asset Infrastructure for Real-World Asset Tokenization**
 

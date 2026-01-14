@@ -98,7 +98,7 @@ The issuer deploys their security token using the VaultFactory.
     │  - name: "Company Stock"   │                           │
     │  - symbol: "COMP"          │                           │
     │  - supply: 1,000,000       │                           │
-    │  - package: 2 (Standard)   │                           │
+    │  - package: 9 (1_9_0)      │                           │
     │───────────────────────────►│                           │
     │                            │                           │
     │                            │  Deploy STV3 Token        │
@@ -122,7 +122,7 @@ The issuer deploys their security token using the VaultFactory.
 | **Name** | Full token name | "Stobox Company Stock" |
 | **Symbol** | Trading ticker | "COMP" |
 | **Initial Supply** | Total tokens to create | 1,000,000 |
-| **Package** | Feature set (Basic/Standard/Advanced) | 2 (Standard) |
+| **Package** | Feature set version | 9 (1_9_0_STV3Pack) |
 | **Decimals** | Token divisibility | 18 |
 
 ### What Gets Created
